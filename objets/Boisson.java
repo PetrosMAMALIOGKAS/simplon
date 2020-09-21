@@ -7,5 +7,9 @@ public class Boisson {
 	public Boisson(String designation) {
 		this.designation = designation;
 	}
+	
+	public String getDesignation() {
+		return this.designation;
+	}
 
 }

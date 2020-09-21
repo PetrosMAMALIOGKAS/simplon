@@ -15,6 +15,9 @@ public class Accompagnement {
 		this.designation = designation;
 	}
 
+	public String getDesignation() {
+		return this.designation;
+	}
 	
 
 }
