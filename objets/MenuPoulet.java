@@ -39,7 +39,7 @@ public class MenuPoulet {
 				choixUtilisateur = Fonctions.readNumber();
 			} while (choixUtilisateur < 1 && choixUtilisateur < (nombreTotalDesAccompagnement + 1));
 			
-			accompagnementChoisi = this.listDeAccompagnements[choixUtilisateur -1];
+			accompagnementChoisi = this.listDeAccompagnements[choixUtilisateur -15];
 		}
 		
 		public void choixDeBoisson() {
